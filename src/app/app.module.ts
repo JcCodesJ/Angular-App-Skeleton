@@ -11,6 +11,10 @@ import { AccountComponent } from './components/account/account.component';
 import { SignupFormComponent } from './forms/signup-form/signup-form.component';
 import { HomeComponent } from "./components/home/home.component";
 import { RequestFormComponent } from "./forms/request-form/request-form.component";
+import { SecuredReqFormComponent } from './requests-services-ect/secured-req-form/secured-req-form.component';
+import { RoutingComponent } from './components/routing/routing.component';
+import { ApiRequestComponent } from './requests-services-ect/api-request/api-request.component';
+import { RezDetailsComponent } from './requests-services-ect/reservation/rez-details/rez-details.component';
 
 
 @NgModule({
@@ -22,7 +26,11 @@ import { RequestFormComponent } from "./forms/request-form/request-form.componen
     LoginComponent,
     AccountComponent,
     RequestFormComponent,
-    SignupFormComponent
+    SignupFormComponent,
+    SecuredReqFormComponent,
+    RoutingComponent,
+    ApiRequestComponent,
+    RezDetailsComponent
   ],
   imports: [
     BrowserModule,
