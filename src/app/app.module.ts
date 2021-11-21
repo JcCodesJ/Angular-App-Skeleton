@@ -2,29 +2,27 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import {AppRoutingModule} from "./app-routing.module";
-import {FormsModule, ReactiveFormsModule} from "@angular/forms";
+import { AppRoutingModule } from "./app-routing.module";
+import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { LoginComponent } from './components/login/login.component';
-import { ComponentsComponent } from './components/components.component';
 import { NavComponent } from './components/nav/nav.component';
 import { Page404Component } from './components/page404/page404.component';
 import { AccountComponent } from './components/account/account.component';
+import { SignupFormComponent } from './forms/signup-form/signup-form.component';
+import { HomeComponent } from "./components/home/home.component";
+import { RequestFormComponent } from "./forms/request-form/request-form.component";
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent,
-    ComponentsComponent,
-    NavComponent,
+    HomeComponent,
     Page404Component,
+    NavComponent,
+    LoginComponent,
     AccountComponent,
-    // HomeComponent,
-    // Page404Component,
-    // NavComponent,
-    // LoginComponent,
-    // ProfileComponent,
-    // RequestFormComponent
+    RequestFormComponent,
+    SignupFormComponent
   ],
   imports: [
     BrowserModule,
